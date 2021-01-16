@@ -1,4 +1,4 @@
-package SalesByMath;
+package salesByMatch;
 
 import java.io.IOException;
 import java.util.ArrayList;
