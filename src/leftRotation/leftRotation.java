@@ -6,17 +6,12 @@ public class leftRotation {
 
 	static int[] rotLeft(int[] a, int d) {
 
-		int[] rotatedArray = new int[a.length];
-
 		for (int i = 0; i < d; i++) {
 			int j, first;
-			// Stores the first element of the array
 			first = a[0];
 			for (j = 0; j < a.length - 1; j++) {
-				// Shift element of array by one
 				a[j] = a[j + 1];
 			}
-			// First element of array will be added to the end
 			a[j] = first;
 		}
 
